@@ -37,10 +37,16 @@ interface AddService
 {
     int add(int a,int b);
 }
-public class Example1 {
-    public static void main(String[] args){
+public class Example1
+{
+    public static void main(String[] args)
+    {
         AddService c = (a,b) ->  a+b;
         System.out.println(c.add(2,3));
     }
 }
-
+/*
+Output:
+=======
+5
+ */
